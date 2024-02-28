@@ -1,0 +1,12 @@
+#Let's create a function to accept a "bill" value and offer a tip of 0%, 15%, 20% or 25% depending on if the service was "bad, okay, good , or great ".
+
+bill = 300  
+
+if bill > 25: 
+    print('great')
+if bill > 20: 
+    print('good')
+if bill > 25: 
+    print('okay')  
+if bill > 25: 
+    print('bad')
