@@ -10,17 +10,16 @@ def print_factors(x):
 number = 45
 print_factors(number) 
 
-#code for greatest common factor   Changle 4   GCF data types assignment
-
-def gcf(x,y): 
-    if(y == 0): 
-         return abs(x) 
-    else: 
-          return gcf(y, x % y) 
+#code for greatest common factor   Changle 4   GCF data types assignment 
 
 
-x = 16
-y = 28 
+x = int(input("Larger Value"))
+y = int(input("Smaller Value"))
+gcf = 0
 
+for i in range(1,y+1):
+     if x % i == 0: 
+          if y % i == 0: 
+               gcf = i
 
-print(gcf(16,28))
+print(gcf)

@@ -14,7 +14,7 @@ number = input("Enter a number:")
 if (number == '1'):
      print('odd') 
 else: 
-     print('even') 
+     print('duh its even') 
 
 number = input("Enter a number:") 
 if (number == '5'):

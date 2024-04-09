@@ -1,0 +1,20 @@
+def computHCF(x,y):
+    smaller = 0         #HCF is another ame for gcff     #the smaller number is number 1 
+    if (x < y): 
+        smaller = x 
+    else: 
+        smaller = y  #this allows for the code to work regradless of which the smaller number is 
+        if(x % i == 0) and (y % i == 0):
+
+            hcf = 0
+    for i in range(1, smaller + 1): #u put +1 so the smaler number is included in the loop #the for loop is gonna from 1 to in between x and y #then u have to divide x and y by i and if the remainder is   
+        if(x % i == 0) and (y % i == 0): 
+            hcf = i 
+    return hcf 
+
+number1 = 15 #x and y are num 1 and num 2
+number2 = 25  
+
+ #the for loop is gonna from 1 to in between x and y #then u have to divide x and y by i and if the remainder is 
+#0 thats the hcf this loop will happen many times until the largest factor is found   
+
